@@ -10,6 +10,8 @@ Ecologists try to come up with Population Models in order to predict what will h
 
 ## Modeling a Moose Population in Paradise
 ![paradise](https://i5.walmartimages.com/asr/1322e8cf-02cb-42b0-957c-5f67c4d33ad5_1.ed3040664283e11a726301a23f5e4332.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff)
+
+
 First, let's assume we have a moose paradise with no predators, infinite resources, and every moose lives to full maturity. Assume the following statistics:
 
 * Each year in the Spring, 10% of the moose population produce a baby moose calf. 
@@ -34,6 +36,7 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 * Each year in the Spring, 10% of the moose population produce a baby moose calf. 
 * Every year in the Fall, 6% of the moose population dies due to old age.
 * Every year in the winter, each wolf kills 2 moose for food
+
 
 * Each year in the Spring, 4% of the wolf population produce a wolf baby. 
 * Every year in the Fall, 6% of the wolf population dies due to old age.
