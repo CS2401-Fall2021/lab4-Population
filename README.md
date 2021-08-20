@@ -12,8 +12,8 @@ Ecologists try to come up with Population Models in order to predict what will h
 ![paradise](https://i5.walmartimages.com/asr/1322e8cf-02cb-42b0-957c-5f67c4d33ad5_1.ed3040664283e11a726301a23f5e4332.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff)
 First, let's assume we have a moose paradise with no predators, infinite resources, and every moose lives to full maturity. Assume the following statistics:
 
-*Each year in the Spring, 10% of the moose population produce a baby moose calf. 
-*Every year in the Fall, 6% of the moose population dies due to old age.
+* Each year in the Spring, 10% of the moose population produce a baby moose calf. 
+* Every year in the Fall, 6% of the moose population dies due to old age.
 
 Your lab notes are incredibly messy and while you know at some point, a herd of <20 moose were added to the moose paradise, you don't know exactly when or exactly how many there were at the begining. Furthermore, you're still waiting on this year's population count to come in, so you don't quite know the exact number. To make things worse, your boss is looking for your report to be finished as soon as possible in order to get your team more funding for moose-counting. What can you do? Write a function that takes the current population to determine when the first 10 moose came to your moose paradise.
 
@@ -31,12 +31,12 @@ Implement the propsed solution
 Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pack Research Organization due to a string of budget cuts. This certainly complicates your population model. 
 
 
-*Each year in the Spring, 10% of the moose population produce a baby moose calf. 
-*Every year in the Fall, 6% of the moose population dies due to old age.
-*Every year in the winter, each wolf kills 2 moose for food
+* Each year in the Spring, 10% of the moose population produce a baby moose calf. 
+* Every year in the Fall, 6% of the moose population dies due to old age.
+* Every year in the winter, each wolf kills 2 moose for food
 
-*Each year in the Spring, 4% of the wolf population produce a wolf baby. 
-*Every year in the Fall, 6% of the wolf population dies due to old age.
+* Each year in the Spring, 4% of the wolf population produce a wolf baby. 
+* Every year in the Fall, 6% of the wolf population dies due to old age.
 
 
 ### Method 3
