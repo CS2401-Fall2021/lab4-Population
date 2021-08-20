@@ -1,4 +1,4 @@
-# lab4-Population
+# lab4-Population (100 pts)
 
 ## Introduction
 
@@ -20,12 +20,25 @@ First, let's assume we have a moose paradise with no predators, infinite resourc
 Your lab notes are incredibly messy and while you know at some point, a herd of <20 moose were added to the moose paradise, you don't know exactly when or exactly how many there were at the begining. Furthermore, you're still waiting on this year's population count to come in, so you don't quite know the exact number. To make things worse, your boss is looking for your report to be finished as soon as possible in order to get your team more funding for moose-counting. What can you do? Write a function that takes the current population to determine when the first 10 moose came to your moose paradise.
 
 ### Method 1
-Should you do this recursively? Or iteratively? Why might one be better than the other? 
-Implement the proposed solution. 
+Should you do this recursively? Or iteratively? (5 pts)
+
+Why? (5 pts)
+
+What edge cases should you consider? (5 pts)
+
+Implement the proposed solution. (10 pts)
+
 
 ### Method 2
-What if you knew exactly how many moose started in the moose paradise? Which approach should you use? 
-Implement the propsed solution
+What if you knew exactly how many moose started in the moose paradise? Should you do this recursively? Or iteratively? (5 pts)
+
+Why? (5 pts)
+
+What edge cases should you consider? (5 pts)
+
+Implement the proposed solution. (10 pts)
+
+
 
 ## Introducing predators
 
@@ -45,14 +58,23 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 ### Method 3
 You are tasked with predicting the population in 50 years, but you don't know exactly how many moose or wolves are there to start, but as soon as your grad students come back from counting, you want to be ready to submit your report to the department. 
 
-Should you do this recursively? Or iteratively? Why might one be better than the other? 
+Should you do this recursively? Or iteratively? (5 pts)
 
+Why? (5 pts)
 
-Implement the proposed solution. 
+What edge cases should you consider? (5 pts)
+
+Implement the proposed solution. (10 pts)
+
 
 ### Method 4
 Good news! You got a grant to start a smaller study where you get to choose how many moose you bring into a population of 5 wolves. But your grant requires you to have exactly 200 moose and 25 wolves at some point in the next 50 years. How many moose do you start with? 
 
-Should you do this recursively? Or iteratively? Why might one be better than the other? 
+Should you do this recursively? Or iteratively? (5 pts)
 
-Implement the propsed solution
+Why? (5 pts)
+
+What edge cases should you consider? (5 pts)
+
+Implement the proposed solution. (10 pts)
+
