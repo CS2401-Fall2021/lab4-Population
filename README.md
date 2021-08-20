@@ -27,7 +27,9 @@ Implement the propsed solution
 
 ## Introducing predators
 
+!(moon_moon)[https://i.pinimg.com/originals/52/ea/da/52eada7605adb6384de1d5575cecd188.jpg]
 Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pack Research Organization due to a string of budget cuts. This certainly complicates your population model. 
+
 
 *Each year in the Spring, 10% of the moose population produce a baby moose calf. 
 *Every year in the Fall, 6% of the moose population dies due to old age.
@@ -35,7 +37,7 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 
 *Each year in the Spring, 4% of the wolf population produce a wolf baby. 
 *Every year in the Fall, 6% of the wolf population dies due to old age.
-*If a wolf cannot eat two moose, it dies.
+
 
 ### Method 3
 You are tasked with predicting the population in 50 years, but you don't know exactly how many moose or wolves are there to start, but as soon as your grad students come back from counting, you want to be ready to submit your report to the department. 
