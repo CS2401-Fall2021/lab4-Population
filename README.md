@@ -14,8 +14,8 @@ Ecologists try to come up with Population Models in order to predict what will h
 
 First, let's assume we have a moose paradise with no predators, infinite resources, and every moose lives to full maturity. Assume the following statistics:
 
-* Each year in the Spring, 10% of the moose population produce a baby moose calf. 
-* Every year in the Fall, 6% of the moose population dies due to old age.
+* Each year in the Spring, 12% of the moose population produce a baby moose calf. 
+* Every year in the Fall, 5% of the moose population dies due to old age.
 
 Your lab notes are incredibly messy and while you know at some point, a herd of <20 moose were added to the moose paradise, you don't know exactly when or exactly how many there were at the begining. Furthermore, you're still waiting on this year's population count to come in, so you don't quite know the exact number. To make things worse, your boss is looking for your report to be finished as soon as possible in order to get your team more funding for moose-counting. What can you do? Write a function that takes the current population to determine when the first 10 moose came to your moose paradise.
 
@@ -33,8 +33,8 @@ Implement the propsed solution
 Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pack Research Organization due to a string of budget cuts. This certainly complicates your population model. 
 
 
-* Each year in the Spring, 10% of the moose population produce a baby moose calf. 
-* Every year in the Fall, 6% of the moose population dies due to old age.
+* Each year in the Spring, 12% of the moose population produce a baby moose calf. 
+* Every year in the Fall, 5% of the moose population dies due to old age.
 * Every year in the winter, each wolf kills 2 moose for food
 
 
@@ -46,9 +46,13 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 You are tasked with predicting the population in 50 years, but you don't know exactly how many moose or wolves are there to start, but as soon as your grad students come back from counting, you want to be ready to submit your report to the department. 
 
 Should you do this recursively? Or iteratively? Why might one be better than the other? 
+
+
 Implement the proposed solution. 
 
 ### Method 4
 Good news! You got a grant to start a smaller study where you get to choose how many moose you bring into a population of 5 wolves. But your grant requires you to have exactly 200 moose and 25 wolves at some point in the next 50 years. How many moose do you start with? 
-What if you knew exactly how many moose started in the moose paradise? Which approach should you use? 
+
+Should you do this recursively? Or iteratively? Why might one be better than the other? 
+
 Implement the propsed solution
