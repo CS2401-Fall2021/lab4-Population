@@ -12,31 +12,56 @@ Ecologists try to come up with Population Models in order to predict what will h
 ![paradise](https://i5.walmartimages.com/asr/1322e8cf-02cb-42b0-957c-5f67c4d33ad5_1.ed3040664283e11a726301a23f5e4332.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff)
 
 
-First, let's assume we have a moose paradise with no predators, infinite resources, and every moose lives to full maturity. Assume the following statistics:
+First, let's assume we have a moose paradise with no predators, infinite resources,
+and every moose lives to full maturity. Furthermore, you have a very special type
+of moose population that allows you to have fractions of a moose. 
+
+Note: You *CANNOT* have negative moose
+
+Assume the following statistics:
 
 * Each year in the Spring, 1/2 of the moose population produce a baby moose calf. 
 * Every year in the Fall, 1/6 of the moose population dies due to old age.
 
-You are working as an intern researcher, but your lab notes are incredibly messy and while you know at some point, a herd of <20 moose were added to the moose paradise, you don't know exactly when or exactly how many there were at the begining. Furthermore, you're still waiting on this year's population count to come in, so you don't quite know the exact number. To make things worse, your boss is looking for your report to be finished as soon as possible in order to get the team more funding for moose-counting. What can you do? Write a function that takes the current population to determine when the first 10 moose came to your moose paradise.
+You are working as an intern researcher, but your lab notes are incredibly messy 
+and while you know at some point, a herd of <20 moose were added to the moose 
+paradise, you don't know exactly when or exactly how many there were
+at the begining. Furthermore, you're still waiting on this year's population
+count to come in, so you don't quite know the exact number yet. To make things 
+worse, your boss is looking for your report to be finished as soon as possible
+in order to get the team more funding for moose-counting. What can you do? 
+
 
 ### Method 1
-Should you do this recursively? Or iteratively? (5 pts)
+Write a function that determines when the first moose came to your moose
+paradise given the current population
 
-Why? (5 pts)
+* Should you do this recursively? Or iteratively? (2 pts)
 
-What edge cases should you consider? (5 pts)
+* Why? (5 pts)
 
-Implement the proposed solution. (10 pts)
+* What edge cases should you consider? (3 pts)
+
+* Implement the proposed solution. (10 pts)
+
+* If there were 1000 moose today, how long ago did the first moose arrive(3 pts)
 
 
 ### Method 2
-What if you knew exactly how many moose started in the moose paradise? Should you do this recursively? Or iteratively? (5 pts)
+Eureka! You found that there were 12 moose in your original moose herd, but only 
+know that the current moose population is at least 1000.
 
-Why? (5 pts)
+Write a function that returns how long ago the herd began
 
-What edge cases should you consider? (5 pts)
+* Should you do this recursively? Or iteratively? (2 pts)
 
-Implement the proposed solution. (10 pts)
+* Why? (5 pts)
+
+* What edge cases should you consider? (3 pts)
+
+* Implement the proposed solution. (10 pts)
+
+* If there are at least 1000 moose today, how long ago did the first 12 moose arrive(3 pts)
 
 
 
@@ -56,25 +81,42 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 
 
 ### Method 3
-You are tasked with predicting the population in 50 years, but you don't know exactly how many moose or wolves are there to start, but as soon as your grad students come back from counting, you want to be ready to submit your report to the department. 
+You are tasked with predicting the population in 50 years, but you don't know 
+exactly how many moose or wolves are there to start, but as soon as the grad
+students come back from counting, you want to be ready to submit your report
+to the department. 
 
-Should you do this recursively? Or iteratively? (5 pts)
+Write a function to calculate the moose and wolf population in a given number of years
 
-Why? (5 pts)
+* Should you do this recursively? Or iteratively? (2 pts)
 
-What edge cases should you consider? (5 pts)
+* Why? (5 pts)
 
-Implement the proposed solution. (10 pts)
+* What edge cases should you consider? (3 pts)
+
+* Implement the proposed solution. (10 pts)
+
+* If you start with 180 moose and 10 wolves, what is the moose population in 50 years(3 pts)?
 
 
 ### Method 4
-Good news! You got a grant to start a smaller study where you get to choose how many moose you bring into a population of 5 wolves. But your grant requires you to have exactly 200 moose and 25 wolves at some point in the next 50 years. How many moose do you start with? 
+Good news! You got a grant to start a smaller study where you get to choose how 
+many moose you bring into a population of 5 wolves. But your grant requires you 
+to have exactly 500 moose and 25 wolves at some point in the next 50 years.
+How many moose do you start with? 
 
-Should you do this recursively? Or iteratively? (5 pts)
+Write a function that calculates the number of moose to start with given
+the starting number of wolves, a target number of wolves and moose, and the
+maximum number of years you have to reach your target
 
-Why? (5 pts)
+* Should you do this recursively? Or iteratively? (5 pts)
 
-What edge cases should you consider? (5 pts)
+* Why? (5 pts)
 
-Implement the proposed solution. (10 pts)
+* What edge cases should you consider? (5 pts)
+
+* Implement the proposed solution. (10 pts)
+
+* How many Moose should you start with if you begin with 5 wolves and want to 
+  reach a population of 500 moose and 25 wolves at some point within the next 50 years?
 
