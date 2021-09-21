@@ -1,4 +1,4 @@
-# lab4-Population (100 pts)
+# lab4-Population (100 pts) Due Sept 28 at noon
 
 ## Introduction
 
@@ -32,7 +32,7 @@ worse, your boss is looking for your report to be finished as soon as possible
 in order to get the team more funding for moose-counting. What can you do? 
 
 
-### Method 1
+### Method 1 (25 pts)
 Write a function that determines when the first moose came to your moose
 paradise given the current population
 
@@ -44,10 +44,10 @@ paradise given the current population
 
 * Implement the proposed solution. (10 pts)
 
-* If there were 1000 moose today, how long ago did the first moose arrive(3 pts)
+* If there were 1000 moose today, how long ago did the first moose arrive(5 pts)
 
 
-### Method 2
+### Method 2 (25 pts)
 Eureka! You found that there were 12 moose in your original moose herd, but only 
 know that the current moose population is at least 1000.
 
@@ -61,7 +61,7 @@ Write a function that returns how long ago the herd began
 
 * Implement the proposed solution. (10 pts)
 
-* If there are at least 1000 moose today, how long ago did the first 12 moose arrive(3 pts)
+* If there are at least 1000 moose today, how long ago did the first 12 moose arrive(5 pts)
 
 
 
@@ -80,7 +80,7 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 * Every year in the Fall, 1/10 of the wolf population dies due to old age.
 
 
-### Method 3
+### Method 3 (25 pts)
 You are tasked with predicting the population in 50 years, but you don't know 
 exactly how many moose or wolves are there to start, but as soon as the grad
 students come back from counting, you want to be ready to submit your report
@@ -96,10 +96,10 @@ Write a function to calculate the moose and wolf population in a given number of
 
 * Implement the proposed solution. (10 pts)
 
-* If you start with 180 moose and 10 wolves, what is the moose population in 50 years(3 pts)?
+* If you start with 180 moose and 10 wolves, what is the moose population in 50 years(5 pts)?
 
 
-### Method 4
+### Method 4 (25 pts)
 Good news! You got a grant to start a smaller study where you get to choose how 
 many moose you bring into a population of 5 wolves. But your grant requires you 
 to have exactly 500 moose and 25 wolves at some point in the next 50 years.
@@ -109,14 +109,14 @@ Write a function that calculates the number of moose to start with given
 the starting number of wolves, a target number of wolves and moose, and the
 maximum number of years you have to reach your target
 
-* Should you do this recursively? Or iteratively? (5 pts)
+* Should you do this recursively? Or iteratively? (3 pts)
 
 * Why? (5 pts)
 
-* What edge cases should you consider? (5 pts)
+* What edge cases should you consider? (2 pts)
 
 * Implement the proposed solution. (10 pts)
 
 * How many Moose should you start with if you begin with 5 wolves and want to 
-  reach a population of 500 moose and 25 wolves at some point within the next 50 years?
+  reach a population of 500 moose and 25 wolves at some point within the next 50 years? (5 pts)
 
