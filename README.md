@@ -33,7 +33,7 @@ in order to get the team more funding for moose-counting. What can you do?
 
 
 ### Method 1 (25 pts)
-Write a function that determines when the first moose came to your moose
+In Population.java, write the getInitialStartTimeForMoose1() method that determines when the first moose came to your moose
 paradise given the current population
 
 * Should you do this recursively? Or iteratively? (2 pts)
@@ -51,7 +51,7 @@ paradise given the current population
 Eureka! You found that there were 12 moose in your original moose herd, but only 
 know that the current moose population is at least 1000.
 
-Write a function that returns how long ago the herd began
+In Population.java, write the getInitialStartTimeForMoose2() method that returns how long ago the herd began
 
 * Should you do this recursively? Or iteratively? (2 pts)
 
@@ -73,6 +73,8 @@ Sadly it turns out your Moose Paradise Department had to merge with the Wolf Pac
 
 * Each year in the Spring, 1/2 of the moose population produce a baby moose calf. 
 * Every year in the Fall, 1/6 of the moose population dies due to old age.
+
+
 * Every year in the winter, each wolf kills 2 moose for food
 
 
@@ -86,7 +88,7 @@ exactly how many moose or wolves are there to start, but as soon as the grad
 students come back from counting, you want to be ready to submit your report
 to the department. 
 
-Write a function to calculate the moose and wolf population in a given number of years
+In Population.java, write the getMoosePopulationWithWolves() method to calculate the moose and wolf population in a given number of years
 
 * Should you do this recursively? Or iteratively? (2 pts)
 
@@ -105,7 +107,8 @@ many moose you bring into a population of 5 wolves. But your grant requires you
 to have exactly 500 moose and 25 wolves at some point in the next 50 years.
 How many moose do you start with? 
 
-Write a function that calculates the number of moose to start with given
+
+In Population.java, write the getStartingMoosePopulationWithWolves() method that calculates the number of moose to start with given
 the starting number of wolves, a target number of wolves and moose, and the
 maximum number of years you have to reach your target
 
