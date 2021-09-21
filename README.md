@@ -50,8 +50,8 @@ paradise given the current population
 
 
 ### Method 2 (25 pts)
-Eureka! You found that there were 12 moose in your original moose herd, but only 
-know that the current moose population is at least 1000.
+Eureka! You found your notes and that actually there were exactly 12 moose in your original moose herd, but now you only 
+know that the current moose population is at least 1000, instead of in the previous problem when you know there were exactly 1000. 
 
 In Population.java, write the getInitialStartTimeForMoose2() method that returns how long ago the herd began
 
