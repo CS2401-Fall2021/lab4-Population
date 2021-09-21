@@ -16,7 +16,9 @@ First, let's assume we have a moose paradise with no predators, infinite resourc
 and every moose lives to full maturity. Furthermore, you have a very special type
 of moose population that allows you to have fractions of a moose. 
 
+```
 Note: You *CANNOT* have negative moose
+```
 
 Assume the following statistics:
 
